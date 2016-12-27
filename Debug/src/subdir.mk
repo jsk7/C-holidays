@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/temperatures.c 
+../src/textformat-clear_whitespaces.c 
 
 OBJS += \
-./src/temperatures.o 
+./src/textformat-clear_whitespaces.o 
 
 C_DEPS += \
-./src/temperatures.d 
+./src/textformat-clear_whitespaces.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
