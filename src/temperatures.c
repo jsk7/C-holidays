@@ -13,7 +13,8 @@
 
 int main(void) {
 
-	int fahr = 0, celsius;
+	int fahr = 0;
+	float celsius;
 
 	int min, max, step;
 
@@ -21,9 +22,10 @@ int main(void) {
 	max = 300;
 	step = 20;
 
+	printf("Fahrenheit\tCelsius \n");
 	while ( fahr <= max ) {
-		celsius = 5 * (fahr-32) / 9;
-		printf("%d\t%d\n", fahr, celsius);
+		celsius = 5.0 * (fahr-32.0) / 9.0;
+		printf("%10d\t%7.2f\n", fahr, celsius);
 		fahr = fahr + step;
 
 	}
