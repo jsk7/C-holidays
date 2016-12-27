@@ -22,7 +22,7 @@ int main(void) {
 	step = 20;
 
 	printf("Fahrenheit\tCelsius \n");
-	for (fahr = 0; fahr <= max; fahr = fahr + 20) {
+	for (fahr = max; fahr >= min; fahr = fahr - step) {
 		printf("%10d\t%7.2f \n", fahr, 5.0 * (fahr-32.0) / 9.0);
 	}
 
