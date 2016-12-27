@@ -11,18 +11,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define MIN 0
+#define MAX 300
+#define STEP 20
+
 int main(void) {
 
 	int fahr = 0;
 
-	int min, max, step;
-
-	min = 0;
-	max = 300;
-	step = 20;
-
 	printf("Fahrenheit\tCelsius \n");
-	for (fahr = max; fahr >= min; fahr = fahr - step) {
+	for (fahr = MAX; fahr >= MIN; fahr = fahr - STEP) {
 		printf("%10d\t%7.2f \n", fahr, 5.0 * (fahr-32.0) / 9.0);
 	}
 
