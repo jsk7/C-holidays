@@ -7,22 +7,23 @@
 
 #include <stdio.h>
 
-#define PALABRA_MAS_LARGA_ESP 23
+#define PALABRA_MAS_LARGA_ESP 23 // Random fact: electroencefalografista
 
 int main()
 {
 	int lengths[PALABRA_MAS_LARGA_ESP];
-	int wlength = 0, c;
+	int longitud_de_palabra = 0, c;
 
 	for (int i = 0; i < PALABRA_MAS_LARGA_ESP; ++i)
 		lengths[i] = 0;
 
 	while ( (c = getchar()) != EOF ) {
+		//This parser is going to get fancier later with an array
 		if( c == '\n' || c == '\t' || c == ' ' || c == ',' || c == '.') {
-			lengths[wlength - 1]++;
-			wlength = 0;
+			lengths[longitud_de_palabra - 1]++;
+			longitud_de_palabra = 0;
 		} else {
-			wlength++;
+			longitud_de_palabra++;
 		}
 	}
 
