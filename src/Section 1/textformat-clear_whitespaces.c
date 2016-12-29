@@ -10,7 +10,7 @@
 
 int main(int argc, char **argv) {
 
-	int c, last_c = 10;
+	int c, last_c;
 
 	while( (c = getchar()) != EOF) {
 		if(c == last_c && c == ' ') {
