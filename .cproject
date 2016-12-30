@@ -45,7 +45,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Section 1/temperatures_using_function.c|Section 1/histogram-frequency_of_chars.c|Section 1/histogram-frecuency_of_words_length.c|Section 1/word_counter.c|Section 1/textformat-clear_whitespaces.c|Section 1/temperatures.c|Section 1/semantic_counter.c|Section 1/file_copy.c|Section 1/count_chars.c|semantic_counter.c|count_chars.c|file_copy.c|temperatures.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Section 1/textformat_clear_whitespaces-with_functions.c|Section 1/print-lines-longer_than.c|Section 1/temperatures_using_function.c|Section 1/histogram-frequency_of_chars.c|Section 1/histogram-frecuency_of_words_length.c|Section 1/word_counter.c|Section 1/textformat-clear_whitespaces.c|Section 1/temperatures.c|Section 1/semantic_counter.c|Section 1/file_copy.c|Section 1/count_chars.c|semantic_counter.c|count_chars.c|file_copy.c|temperatures.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -94,7 +94,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Section 1/temperatures_using_function.c|Section 1/histogram-frequency_of_chars.c|Section 1/histogram-frecuency_of_words_length.c|Section 1/word_counter.c|Section 1/textformat-clear_whitespaces.c|Section 1/temperatures.c|Section 1/semantic_counter.c|Section 1/file_copy.c|Section 1/count_chars.c|semantic_counter.c|count_chars.c|file_copy.c|temperatures.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Section 1/textformat_clear_whitespaces-with_functions.c|Section 1/print-lines-longer_than.c|Section 1/temperatures_using_function.c|Section 1/histogram-frequency_of_chars.c|Section 1/histogram-frecuency_of_words_length.c|Section 1/word_counter.c|Section 1/textformat-clear_whitespaces.c|Section 1/temperatures.c|Section 1/semantic_counter.c|Section 1/file_copy.c|Section 1/count_chars.c|semantic_counter.c|count_chars.c|file_copy.c|temperatures.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

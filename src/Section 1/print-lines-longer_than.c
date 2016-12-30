@@ -18,7 +18,7 @@ int main() {
 	char line[MAXLINESIZE];
 	int lineSize;
 
-	while( lineSize = getLine(line, MAXLINESIZE)) {
+	while( (lineSize = getLine(line, MAXLINESIZE)) ) {
 		if(lineSize > MAXLENGTH) {
 			printf(line);
 		}
@@ -51,7 +51,3 @@ void copy(char to[], char from[]) {
 	}
 }
 
-int isLongerThan(int length, char string[]) {
-
-	return 1;
-}
